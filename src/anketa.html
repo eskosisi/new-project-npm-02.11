@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./styles/anketa.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="anketa_input" id="form">
+         <select name="memberCity" id="user_city" required>
+            <option value="0">Выберите ваш город</option>
+            <option value="1">Москва</option>
+            <option value="2">Санкт-Петербург</option>
+            <option value="3">Новосибирск</option>
+            <option value="4">Владивосток</option>
+            <option value="5">Иркутск</option>
+            <option value="6">Минск</option>
+            <option value="7">Киев</option>
+         </select>
+         <input type="text" name="memberName" id="name" placeholder="Введите ваше имя" required />
+         <input type="text" name="memberSurname" id="surname" placeholder="Введите вашу фамилию" required />
+         <input type="number" name="memberAge" id="age" placeholder="Введите ваш возраст" required />
+         <input type="number" name="memberPhone" id="phone" placeholder="Введите ваш номер телефона" required />
+         <input type="number" name="memberWeight" id="weight" placeholder="Введите ваш вес" required />
+         <input type="number" name="memberHeight" id="height" placeholder="Введите ваш рост" required />
+         <select name="memberBust" id="user_bust" required>
+            <option value="0">Выберите ваш размер груди</option>
+            <option value="1">0</option>
+            <option value="2">1</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+            <option value="5">4+</option>
+         </select>
+         <button class="accept_button" type="submit">
+            <a>Создать</a>
+         </button>
+      </div>
+   </body>
+</html>

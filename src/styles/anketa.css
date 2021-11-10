@@ -1,0 +1,27 @@
+.anketa_input {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.anketa_input select, input, button{
+    padding: 10px;
+    margin: 5px;
+    border: purple 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    font-size: 22px;
+    background: purple;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
